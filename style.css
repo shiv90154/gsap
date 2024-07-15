@@ -1,0 +1,29 @@
+body {
+    color: whitesmoke;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px, 40px;
+}
+
+.part-2 {
+    display: flex;
+    gap: 30px;
+
+}
+
+.main {background-image: linear-gradient(to right top, #ffe513, #c2f554, #86fe8f, #45ffc6, #00fff3);
+    color: black;
+    background-color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    white-space: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
