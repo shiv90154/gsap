@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+background-image:url(https://images.pexels.com/photos/695644/pexels-photo-695644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) ;
+background-size: cover;
+background-position: center;
+}
+
+#nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding:40px 50px ;
+color: aliceblue;
+
+}
+#nav h2{
+    font-size: 30px;
+    
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(245, 245, 245, 0.285);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 80px 60px;
+
+}
+#full h4{
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+#full i{
+top: 5%;
+right: 10%;
+position: absolute;
+background-color: aliceblue;
+border-radius: 50%;
+padding: 5px;
+font-weight: 800;
+font-size: 25px;
+}
