@@ -1,0 +1,45 @@
+.container-img {
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.box {
+    width: 100%;
+    height: 0vh;
+    background-color: grey;
+    position: absolute;
+}
+
+/* boxes */
+
+.boxs {
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    display: grid;
+    color: aliceblue;
+    place-content: center;
+
+
+}
+
+h1 {
+    font-size: 70px;
+}
